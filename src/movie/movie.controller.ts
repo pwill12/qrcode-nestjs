@@ -11,7 +11,7 @@ import { MovieService } from './movie.service';
 import { CreateMovies } from './dto/create-movie.dto';
 import { Movie } from './schemas/movie.schema';
 
-@Controller('movies')
+@Controller('')
 export class MovieController {
   constructor(private movieService: MovieService) {}
 
